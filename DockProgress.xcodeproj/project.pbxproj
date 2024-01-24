@@ -11,6 +11,7 @@
 		1AB8755A2B60CC8400EB36A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB875592B60CC8400EB36A9 /* ContentView.swift */; };
 		1AB8755C2B60CC8500EB36A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB8755B2B60CC8500EB36A9 /* Assets.xcassets */; };
 		1AB8755F2B60CC8500EB36A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB8755E2B60CC8500EB36A9 /* Preview Assets.xcassets */; };
+		1AB875682B60CE4C00EB36A9 /* DockProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB875672B60CE4C00EB36A9 /* DockProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1AB8755B2B60CC8500EB36A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AB8755E2B60CC8500EB36A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AB875602B60CC8500EB36A9 /* DockProgress.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DockProgress.entitlements; sourceTree = "<group>"; };
+		1AB875672B60CE4C00EB36A9 /* DockProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		1AB875562B60CC8400EB36A9 /* DockProgress */ = {
 			isa = PBXGroup;
 			children = (
+				1AB875662B60CE3900EB36A9 /* Helpers */,
 				1AB875572B60CC8400EB36A9 /* DockProgressApp.swift */,
 				1AB875592B60CC8400EB36A9 /* ContentView.swift */,
 				1AB8755B2B60CC8500EB36A9 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				1AB8755E2B60CC8500EB36A9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1AB875662B60CE3900EB36A9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1AB875672B60CE4C00EB36A9 /* DockProgress.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AB8755A2B60CC8400EB36A9 /* ContentView.swift in Sources */,
+				1AB875682B60CE4C00EB36A9 /* DockProgress.swift in Sources */,
 				1AB875582B60CC8400EB36A9 /* DockProgressApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
